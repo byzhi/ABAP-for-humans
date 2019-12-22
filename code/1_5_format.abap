@@ -46,7 +46,10 @@ INSERT LINE INTO TABLE itab.
 ULINE.
 FORMAT COLOR COL_HEADING.
 WRITE: / sy-vline, AT 2(6) 'land',
-sy-vline, AT 13(10) 'name',
+
+* Goto > Text Elements > Text symbols
+* Goto > Translation
+sy-vline, AT 13(10) 'name'(001),
 sy-vline, AT 28(6) 'age',
 sy-vline, AT 38(6) 'weight',
 AT 45 sy-vline.
