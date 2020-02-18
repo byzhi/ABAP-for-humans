@@ -1,6 +1,6 @@
-# ABAP
+# ABAP for humans
 
-Abap Sample Code for Humans.
+Abap Guide for Humans. The objective of this guide is to coverage on the most important elements of ABAP, providing Simple Code and Simple explanation.
 
 ## Code
 
@@ -14,3 +14,10 @@ Abap Sample Code for Humans.
 
 ### ADVANCED
 ...
+
+
+## Usefull Links
+
+- [ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+- [Clean ABAP](https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md)
