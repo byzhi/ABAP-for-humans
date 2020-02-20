@@ -11,6 +11,9 @@ REPORT  Z_1_4_INTERNALTABLES.
 * # Internal Tables
 * https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abennested_internal_tables_abexa.htm
 
+* Internal tables are an important feature of the ABAP language.
+* ABAP does not support arrays; the only way to define a multi-element data object is to use an internal table.
+
 * # Table Type
 * ## Standard tables
 * Index access is the quickest possible access.
