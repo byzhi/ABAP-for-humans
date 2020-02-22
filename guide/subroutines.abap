@@ -15,11 +15,11 @@ REPORT  Z_SUBROUTINES.
 * A subroutine is declared immediately when implemented.
 * Subroutines should no longer be created in new programs
 
+* example 1(Passing Parameters by Reference)
 DATA: num_1 TYPE I,
       num_2 TYPE I,
       num_sum TYPE I.
 
-* example 1(Passing Parameters by Reference)
 num_1 = 10.
 num_2 = 20.
 PERFORM ADD USING num_1 num_2 CHANGING num_sum. "actual parameters num1, num2
@@ -104,3 +104,32 @@ FORM out USING VALUE(v) LIKE it_tb.
 ENDFORM.
 
 * example 5(TABLES parameter)
+TYPES: BEGIN OF ty,
+  col_1 TYPE I,
+  col_2 TYPE I,
+END OF ty.
+  
+START-OF-SELECTION.
+
+DATA: a_tb TYPE STANDARD TABLE OF ty WITH HEADER LINE,
+      b_tb TYPE STANDARD TABLE OF ty.
+
+PERFORM fill_2 TABLES a_tb.
+
+MOVE a_tb[] TO b_tb.
+
+PERFORM out_2 TABLES b_tb.
+
+FORM fill_2 TABLES v LIKE a_tb[].
+  DO 3 TIMES.
+    v-col_1 = sy-INDEX.
+    v-col_2 = sy-INDEX ** 2.
+    APPEND v.
+  ENDDO.
+ENDFORM.
+ 
+FORM out_2 TABLES v LIKE b_tb.
+  LOOP AT v.
+    WRITE: / v-col_1, v-col_2.
+  ENDLOOP.
+ENDFORM.
