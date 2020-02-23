@@ -9,11 +9,12 @@ The objective of this guide is to coverage on important elements of ABAP, provid
 ## Topics
 
 - [Introduction](guide/intro.md)
+- [User](guide/user.md)
 - [Hello World](guide/helloworld.abap)
 - [Comments](guide/comments.abap)
 - [Variable](guide/var.abap)
 - [Database](guide/database.abap)
-- [Internal Tables](guide/internaltable.abap)
+- [Internal Tables](guide/internaltables.abap)
 - [Format](guide/format.abap)
 - [Selection Screen](guide/selectionscreen.abap)
 - [Subroutines](guide/subroutines.abap)

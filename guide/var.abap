@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_1_2_VAR
+*& Report  Z_VAR
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -31,7 +31,7 @@
 * t- Time fields with length 6 containing a time in HHMMSS format. Calculations interpret a time as the number of seconds since midnight.
 
 
-REPORT  Z_1_2_VAR.
+REPORT  Z_VAR.
 
 DATA: i1 TYPE I.
 i1 = 1234567890.

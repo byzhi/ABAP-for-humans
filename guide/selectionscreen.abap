@@ -1,12 +1,12 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_1_6_SELECTIONSCREEN
+*& Report  Z_SELECTIONSCREEN
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT  Z_1_6_SELECTIONSCREEN.
+REPORT  Z_SELECTIONSCREEN.
 
 DATA it_spfli TYPE TABLE OF spfli.
 DATA wa_spfli TYPE spfli.

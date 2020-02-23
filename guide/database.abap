@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_1_3_DATABASE
+*& Report  Z_DATABASE
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -11,7 +11,7 @@
 * https://help.sap.com/saphelp_nwes72/helpdata/en/cf/21ea0b446011d189700000e8322d00/frameset.htm
 * use the ABAP Dictionary to create and manage data definitions (metadata).
 
-* se11
+* 'se11'
 
 * database table: spfli
 * https://www.sapdatasheet.org/abap/tabl/spfli.html
@@ -19,7 +19,7 @@
 * show table contects
 * utilities -> table contects -> display
 
-REPORT  Z_1_3_DATABASE.
+REPORT  Z_DATABASE.
 
 * select * from table
 DATA: wa_scarr TYPE scarr.

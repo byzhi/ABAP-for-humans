@@ -1,8 +1,8 @@
 * # Comments
 
 * 2 ways:
-* (*) in the leftmost column of a line makes the entire line a comment
-* (") anywhere on a line makes the rest of that line a comment
+* (*) in the leftmost column of a line makes the entire line a comment.
+* (") anywhere on a line makes the rest of that line a comment.
 
 ***************************************
 ** Program: XXX                      **

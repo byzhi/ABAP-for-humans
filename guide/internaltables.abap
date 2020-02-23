@@ -1,12 +1,12 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_1_4_INTERNALTABLES
+*& Report  Z_INTERNALTABLES
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT  Z_1_4_INTERNALTABLES.
+REPORT  Z_INTERNALTABLES.
 
 * # Internal Tables
 * https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abennested_internal_tables_abexa.htm
