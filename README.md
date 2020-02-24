@@ -18,6 +18,7 @@ The objective of this guide is to coverage on important elements of ABAP, provid
 - [Format](guide/format.abap)
 - [Selection Screen](guide/selectionscreen.abap)
 - [Subroutines](guide/subroutines.abap)
+- [Include](guide/include.abap)
 
 ## References
 
