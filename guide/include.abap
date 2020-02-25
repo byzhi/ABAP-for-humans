@@ -9,7 +9,10 @@
 REPORT  Z_INCLUDE.
 
 * Ctrl + Shift + F5
-* Under 'Includes folder'
+* Under 'Includes' folder
+
+* example 1
+* Z_INCLUDE_DEF, Z_INCLUDE_MAIN, Z_INCLUDE_SUB are all under 'Includes' folder.
 
 INCLUDE Z_INCLUDE_DEF.
 INCLUDE Z_INCLUDE_MAIN.
