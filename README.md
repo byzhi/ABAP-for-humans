@@ -4,7 +4,8 @@ ABAP guidebook written for humans.
 
 ## Features
 
-The objective of this guide is to coverage on important elements of ABAP, providing simple code and simple explanation.
+- Objective of this guide is to coverage on important elements of ABAP
+- Providing simple code and simple explanation
 
 ## Topics
 
@@ -19,6 +20,7 @@ The objective of this guide is to coverage on important elements of ABAP, provid
 - [Selection Screen](guide/selectionscreen.abap)
 - [Subroutines](guide/subroutines.abap)
 - [Include](guide/include.abap)
+- [Function Module](guide/functionmodule.abap)
 
 ## References
 

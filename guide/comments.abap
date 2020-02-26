@@ -11,4 +11,4 @@
 
 * entire line
 SELECT * FROM XXX
-  WHERE XXX = 'XXX'       "rest of this line
+  WHERE XXX = 'XXX'       " rest of this line
