@@ -4,23 +4,30 @@ ABAP guidebook written for humans.
 
 ## Features
 
-- Objective of this guide is to coverage on important elements of ABAP
+- Coverage on important elements of ABAP
 - Providing simple code and simple explanation
 
 ## Topics
 
-- [Introduction](guide/intro.md)
-- [User](guide/user.md)
-- [Hello World](guide/helloworld.abap)
-- [Comments](guide/comments.abap)
-- [Variable](guide/var.abap)
-- [Database](guide/database.abap)
-- [Internal Tables](guide/internaltables.abap)
-- [Format](guide/format.abap)
-- [Selection Screen](guide/selectionscreen.abap)
-- [Subroutines](guide/subroutines.abap)
-- [Include](guide/include.abap)
-- [Function Module](guide/functionmodule.abap)
+- Concepts
+    - [Introduction](guide/intro.md)
+    - [User](guide/user.md)
+- Basic
+    - [Hello World](guide/helloworld.abap)
+    - [Comments](guide/comments.abap)
+    - [Variable](guide/var.abap)
+    - [Database](guide/database.abap)
+- Structures and Internal Tables
+    - [Internal Tables](guide/internaltables.abap)
+    - [Format](guide/format.abap)
+- User Interaction
+    - [Selection Screen](guide/selectionscreen.abap)
+- Modularization Techniques
+    - [Subroutines](guide/subroutines.abap)
+    - [Include](guide/include.abap)
+    - [Function Module](guide/functionmodule.abap)
+- Dialog Programming
+    - []
 
 ## References
 
